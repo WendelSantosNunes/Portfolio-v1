@@ -54,4 +54,17 @@ export const Container = styled.section`
 
         }
     }
+
+    @media (max-width: 55rem) {
+        section {
+            grid-template-columns: 1fr 1fr; 
+        }
+    }
+
+    @media (max-width: 50.625rem) {
+        section {
+            grid-template-columns: 1fr; 
+            margin: 0 1.25rem;
+        }
+    }
 `

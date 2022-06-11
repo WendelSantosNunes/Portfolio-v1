@@ -51,12 +51,12 @@ export function Knowledge (){
 
     return (
         <Container>
-            <h2>Conhecimento</h2>
+            <h2 id="knowledge">Conhecimento</h2>
             <section>
                 {
                     conhecimento.map((item) => {
                         return (
-                            <div>
+                            <div key={item.technology}>
                                 <div>
                                     <h3>{item.technology}</h3>
                                     <img src={item.img} alt="Logo do react" />

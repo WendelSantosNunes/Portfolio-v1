@@ -17,4 +17,17 @@ export const Container = styled.section `
             font-size: 4.25rem;
         }
     }
+
+    img{
+        width: 22rem;;
+    }
+
+    @media (max-width: 50.625rem) {
+        flex-wrap:wrap;
+        justify-content: center;
+
+        div{
+            padding-bottom: 30px;
+        }
+    }
 ` 

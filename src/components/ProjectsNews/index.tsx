@@ -2,7 +2,7 @@ import {Container, Content} from './styles'
 import projImg1 from '../../assets/projetos-imagem-1.png'
 import projImg2 from '../../assets/projetos-imagem-2.png'
 import projImg3 from '../../assets/projetos-imagem-3.png'
-
+import githubImg from '../../assets/logo-github.svg'
 
 export function ProjectNews(){
     const project = [
@@ -15,7 +15,8 @@ export function ProjectNews(){
                 'Styled Components',
                 'Api',
                 'MirageJs'
-            ]
+            ],
+            link: 'https://github.com/WendelSantosNunes/dt.money'
         },
         {
             img: projImg2,
@@ -24,7 +25,9 @@ export function ProjectNews(){
                 'React',
                 'Typescript',
                 'Styled Components'
-            ]
+            ],
+            link: 'https://github.com/WendelSantosNunes/RocketBlog'
+
         },
         {
             img: projImg3,
@@ -34,7 +37,8 @@ export function ProjectNews(){
                 'CSS',
                 'JS',
                 'EJS'
-            ]
+            ],
+            link: 'https://github.com/WendelSantosNunes/Cozinheira-Edineta'
         }
     ]
 
@@ -42,25 +46,30 @@ export function ProjectNews(){
     return (
         <Container>
             <Content>
-                <h2>Projetos</h2>
+                <h2 id='project'>Projetos</h2>
 
                 <div>
                     {
                         project.map((item) => {
                             return (
-                                <div>
+                                <div key={item.nomeProject}>
                                     <div>
-                                        <img src={item.img} alt="" />
+                                        <img src={item.img} alt={item.nomeProject} />
                                     </div>
-                                    <p>{item.nomeProject}</p>
+                                    <p className='title'>{item.nomeProject}</p>
                                     <p>Tecnologias utilizadas:</p>
                                     <ul>
                                         {
                                             item.list.map(item => {
-                                                return <li>{item}</li>
+                                                return <li key={item}>{item}</li>
                                             })
                                         }
                                     </ul>
+
+                                    <a href={item.link} target="_blank" rel="noreferrer">
+                                        <img src={githubImg} alt="Logo do Github" />
+                                        Abrir projeto
+                                    </a>
                                 </div>
                             )
                         }) 

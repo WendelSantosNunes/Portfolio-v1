@@ -7,7 +7,7 @@ export function Abount() {
     return (
         <Container>
             <Content>
-                <h2>Sobre</h2>
+                <h2 id='about'>Sobre</h2>
                 <div>
                     <img src={imgPerfil} alt="Imagem do dev" />
                     <div>
@@ -23,9 +23,9 @@ export function Abount() {
                         <p>
                             Me considero ser uma pessoa disciplinado e  persistente, pronto para superar qualquer desafio. 
                         </p>
-                        <button>
+                        <a href="https://drive.google.com/file/d/1w-Gajk6woDNBoreWbny3OP1sMu2rOR-l/view?usp=sharing" target='_blank' rel="noreferrer" >
                             <img src={imgCloud} alt="Cloud" /> Curriculo
-                        </button>
+                        </a>
                     </div>
                 </div>
             </Content>

@@ -34,11 +34,13 @@ export const Content = styled.div`
         display: flex;
         justify-content: space-around;
 
+        img {
+            max-width: 22.4375rem;
+        }
 
         div{
             width: 27.875rem;
-            
-           
+
             p{
                 margin: 0.625rem 0 0.4375rem 0;
                 
@@ -47,8 +49,9 @@ export const Content = styled.div`
                 color: var(--background-text-corpo);
             }
 
-            button{
+            a{
                 background-color: var(--background-button);
+                text-decoration: none;
               
                 width: 17.25rem;
                 margin: 0.8125rem auto 0 auto;
@@ -67,7 +70,29 @@ export const Content = styled.div`
                 img{
                     margin-right: 2.5rem;
                 }
+                
+                transition: background-color 0.7s;
+
+                &:hover{
+                    background-color: var(--background-card);
+                }
             }
         }
+    }
+
+    @media (max-width: 50.625rem) {
+        div {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+
+    @media (max-width: 17.5rem) {
+        div {
+            
+            img{
+                max-width: 20rem;
+            }
+        }    
     }
 `
