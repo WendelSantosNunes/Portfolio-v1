@@ -104,6 +104,17 @@ export const Content = styled.div`
         }
     }
 
+    animation: anima5 1s 1.3s both;
+
+    @keyframes anima5{
+        from{
+            opacity: 0;
+        }
+        to{
+            opacity: 1;
+        }
+    }
+
     @media (max-width: 50.625rem) {
         > div {
             grid-template-columns: 1fr;

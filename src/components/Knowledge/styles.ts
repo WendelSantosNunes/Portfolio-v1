@@ -55,6 +55,17 @@ export const Container = styled.section`
         }
     }
 
+    animation: anima4 1s 1s both;
+
+    @keyframes anima4{
+        from{
+            transform: translateX(-200%);
+        }
+        to{
+            transform: translateX(0%);
+        } 
+    }
+
     @media (max-width: 55rem) {
         section {
             grid-template-columns: 1fr 1fr; 

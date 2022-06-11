@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const Container = styled.section`
+export const Container = styled.footer`
     background-color: var(--background-button);
 `
 
@@ -9,15 +9,25 @@ export const Content = styled.div`
     margin: 0 auto;
 
     color: var(--background-text-corpo);
-    text-align: center;
-
-
-    > div {
-        padding: 5.5rem 0 2.5rem 0;
-    }
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     p{
-        padding-bottom: 5.625rem;
+        padding: 2.6875rem 0;
         font-size: 1.25rem;
+        font-weight: 700;
+    }
+
+    animation: anima7 1s 1s both;
+
+    @keyframes anima7{
+        from{
+            opacity: 0;
+        }
+        to{
+            opacity: 1;
+        } 
     }
 `

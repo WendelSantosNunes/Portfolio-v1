@@ -80,6 +80,17 @@ export const Content = styled.div`
         }
     }
 
+    animation: anima3 1s 1.3s both;
+
+    @keyframes anima3{
+        from{
+            opacity: 0;
+        }
+        to{
+            opacity: 1;
+        }
+    }
+
     @media (max-width: 50.625rem) {
         div {
             flex-wrap: wrap;

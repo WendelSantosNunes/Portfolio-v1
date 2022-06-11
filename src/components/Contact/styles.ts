@@ -24,55 +24,23 @@ export const Container = styled.section`
         margin: 0.625rem auto 3.125rem auto;
     }
 
-    > div {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+    div{
+        display: flex;
+        justify-content: space-around;
         align-items: center;
-        justify-items: center;
-
-        form div {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-
-            border: none;
-
-            button {
-                color: var(--background-text-corpo);
-                background-color: var(--background-button);
-
-                width: 12.625rem;
-                padding: 0.8125rem;
-                font-size: 1.125rem;
-
-                border:none;
-                border-radius: 0.625rem;
-                font-weight: 700;
-
-                transition: background-color 0.7s;
-
-                &:hover{
-                    background-color: var(--background-card);
-                }
-            }
-        }
-
-        form p{
-            display: flex;
-            flex-direction: column;
-
-            label {
-                margin-bottom: 0.75rem;
-            }
-
-            input,textarea {
-                border: 1px solid var(--background-card);
-                border-radius: 0.3125rem;
-                padding: 0.875rem 0 0.857rem 0.9375rem;
-                margin: 0 0 0.9375rem 1.125rem;
-            }
-        }
     }
+
+    animation: anima6 1s 1s both;
+
+    @keyframes anima6{
+        from{
+            transform: translateX(-200%);
+        }
+        to{
+            transform: translateX(0%);
+        } 
+    }
+
     @media (min-width: 50.626rem){
          form p{
             input,textarea {

@@ -37,6 +37,17 @@ export const Container = styled.header `
         display: none;
     }
 
+    animation: anima 1s 1s both;
+
+    @keyframes anima{
+        from{
+            transform: translateX(-200%);
+        }
+        to{
+            transform: translateX(0%);
+        }
+    }
+
     @media (max-width: 39.375rem) {
         .Hamburguer{
             display: initial;
