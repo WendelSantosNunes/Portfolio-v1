@@ -25,9 +25,8 @@ export const Container = styled.section`
     }
 
     div{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     }
 
     animation: anima6 1s 1s both;
@@ -41,27 +40,18 @@ export const Container = styled.section`
         } 
     }
 
-    @media (min-width: 50.626rem){
-         form p{
-            input,textarea {
-                width: 20.9375rem;
-            }
+    @media (max-width: 37.5rem) {
+        div{
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px;
         }
     }
 
-    @media (max-width: 50.625rem) {
-        > div{
+    @media (max-width: 21.875rem) {
+        div{
             grid-template-columns: 1fr;
-
-            form p{
-                input,textarea {
-                    max-width: 20.9375rem;
-                }
-            }
-        }
-
-        #active{
-            display: none;
+            justify-items: center;
+            gap: 20px;
         }
     }
 `

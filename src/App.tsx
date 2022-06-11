@@ -6,12 +6,11 @@ import { Footer } from './components/Footer';
 import { Header } from './components/Header';
 import { Knowledge } from './components/Knowledge';
 import { ProjectNews } from './components/ProjectsNews';
-import { MenuProvider } from './hooks/menu';
 import { GlobalStyle } from './styles/global';
 
 export function App() {
   return (
-    <MenuProvider>
+    <>
       <Header />
       <Emphasis/>
       <Abount/>
@@ -20,6 +19,6 @@ export function App() {
       <Contact/>
       <Footer/>
       <GlobalStyle/>
-   </MenuProvider>
+   </>
   );
 }
