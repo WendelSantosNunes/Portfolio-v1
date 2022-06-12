@@ -13,15 +13,15 @@ export function Abount() {
                     <div>
                         <p>
                             Meu nome é Wendel Santos, tenho 22 anos e moro em Picos-PI.
-                            Atualmente, estou no sexto período do curso de Sistema de Informação(UFPI),
+                            Atualmente, estou no 6º período do curso de Sistema de Informação(UFPI),
                             mas já estou em busco da minha primeira oportunidade profissional.
                         </p>
                         <p>
                             Durante meu percuso, dentro e fora da faculdade, tive fortes influências na área da web,
-                            por isso, estou me especializado nessa área.
+                            em vista disso, estou me especializado nessa área.
                         </p>
                         <p>
-                            Me considero ser uma pessoa disciplinado e  persistente, pronto para superar qualquer desafio. 
+                            Me considero uma pessoa disciplinado, persistente e pontual, disposto a superar qualquer desafio. 
                         </p>
                         <a href="https://drive.google.com/file/d/1w-Gajk6woDNBoreWbny3OP1sMu2rOR-l/view?usp=sharing" target='_blank' rel="noreferrer" >
                             <img src={imgCloud} alt="Cloud" /> Curriculo
