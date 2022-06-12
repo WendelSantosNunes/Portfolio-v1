@@ -27,6 +27,7 @@ export const Container = styled.section`
     div{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        justify-items: center;
     }
 
     animation: anima6 1s 1s both;

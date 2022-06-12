@@ -42,6 +42,7 @@ export const Content = styled.div`
             width: 27.875rem;
 
             p{
+
                 margin: 0.625rem 0 0.4375rem 0;
                 
                 font-size: 1.25rem;
@@ -95,6 +96,10 @@ export const Content = styled.div`
         div {
             flex-wrap: wrap;
             justify-content: center;
+
+            img, div{
+                padding: 0 20px;
+            }
         }
     }
 
