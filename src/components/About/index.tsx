@@ -12,7 +12,7 @@ export function Abount() {
                     <img src={imgPerfil} alt="Imagem do dev" />
                     <div>
                         <p>
-                            Meu nome é Wendel Santos, tenho 22 anos e moro em Picos-PI.
+                            Meu nome é Wendel, tenho 22 anos e moro em Picos-PI.
                             Atualmente, estou no 6º período do curso de Sistema de Informação(UFPI),
                             mas já estou em busco da minha primeira oportunidade profissional.
                         </p>
