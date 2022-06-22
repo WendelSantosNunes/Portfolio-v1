@@ -10,7 +10,7 @@ export function Knowledge (){
         {
             technology: 'React',
             img: reactImg,
-            text: 'O React é uma biblioteca JavaScript de código aberto com foco em criar interfaces de usuário em páginas web.',
+            text: 'O React é uma biblioteca JavaScript de código aberto com foco em criar interfaces de usuário em página web.',
             list: [
                 'Estilização (Styled Components, SASS)',
                 'Hooks',
@@ -20,7 +20,7 @@ export function Knowledge (){
         {
             technology: 'Typescript',
             img: typescriptImg,
-            text: 'O TypeScript é um superconjunto sintático estrito de JavaScript e adiciona tipagem estática opcional à linguagem.O React é uma biblioteca JavaScript de código aberto com foco em criar interfaces de usuário em páginas web.',
+            text: 'O TypeScript é um superconjunto sintático estrito de JavaScript e adiciona tipagem estática opcional à linguagem. O React é uma biblioteca JavaScript de código aberto com foco em criar interfaces de usuário em página web.',
             list: [
                 'Interface',
                 'Generics',

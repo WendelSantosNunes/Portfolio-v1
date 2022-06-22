@@ -17,11 +17,11 @@ export function Abount() {
                             mas já estou em busco da minha primeira oportunidade profissional.
                         </p>
                         <p>
-                            Durante meu percuso, dentro e fora da faculdade, tive fortes influências na área da web,
+                            Durante meu percurso, dentro e fora da faculdade, tive fortes influências na área da web,
                             em vista disso, estou me especializado nessa área.
                         </p>
                         <p>
-                            Me considero uma pessoa disciplinado, persistente e pontual, disposto a superar qualquer desafio. 
+                            Considero-me uma pessoa disciplinado, persistente e pontual, disposto a superar qualquer desafio.  
                         </p>
                         <a href="https://drive.google.com/file/d/1w-Gajk6woDNBoreWbny3OP1sMu2rOR-l/view?usp=sharing" target='_blank' rel="noreferrer" >
                             <img src={imgCloud} alt="Cloud" /> Curriculo
